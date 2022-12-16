@@ -9,8 +9,8 @@ public class DropPlaceScr : MonoBehaviour, IDropHandler, IPointerEnterHandler, I
     {
         CardScr card = eventData.pointerDrag.GetComponent<CardScr>();
 
-        if (card) 
-        { 
+        if (card)
+        {
             card.DefaultParent = transform;
         }
     }
@@ -24,7 +24,7 @@ public class DropPlaceScr : MonoBehaviour, IDropHandler, IPointerEnterHandler, I
 
         CardScr card = eventData.pointerDrag.GetComponent<CardScr>();
 
-        if (card) 
+        if (card)
         {
             card.DefaultTempCardParent = transform;
         }

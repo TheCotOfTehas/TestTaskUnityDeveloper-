@@ -14,7 +14,7 @@ public class CardScr : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
 
     void Awake()
     {
-        MainCamera= Camera.allCameras[0];
+        MainCamera = Camera.allCameras[0]; // 
         TempCardGO = GameObject.Find("TempCardGO");
     }
     public void OnBeginDrag(PointerEventData eventData)
@@ -46,8 +46,8 @@ public class CardScr : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
         transform.SetParent(DefaultParent);
         GetComponent<CanvasGroup>().blocksRaycasts = true;
         transform.SetSiblingIndex(TempCardGO.transform.GetSiblingIndex());
-        TempCardGO.transform.SetParent(GameObject.Find("BG").transform);
-        TempCardGO.transform.localPosition = new Vector3(2000, -600);
+        TempCardGO.transform.SetParent(GameObject.Find("Bacground").transform);
+        TempCardGO.transform.localPosition = new Vector3(2500, 550);
     }
 
     void CheckPosition()
