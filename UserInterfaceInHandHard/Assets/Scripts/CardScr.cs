@@ -11,6 +11,7 @@ public class CardScr : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     public Transform DefaultParent;
     public Transform DefaultTempCardParent;
     GameObject TempCardGO;
+
     void Awake()
     {
         MainCamera= Camera.allCameras[0];
