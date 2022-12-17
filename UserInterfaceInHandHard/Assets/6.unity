@@ -1111,36 +1111,36 @@ MonoBehaviour:
   cards:
   - cardName: "\u0418\u043C\u044F 1"
     cardDes: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 1"
-    cardSprite: {fileID: 0}
-    cardBgSprite: {fileID: 0}
+    cardSprite: {fileID: 21300000, guid: 2a5d72c37e9fa0d4facfe8e0ce8f4c4b, type: 3}
+    cardBgSprite: {fileID: 21300000, guid: 2c221b12d6a0a1444844f17dc02efc9d, type: 3}
     mana: 5
     Health: 5
     atack: 5
   - cardName: "\u0418\u043C\u044F 2"
     cardDes: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 2"
-    cardSprite: {fileID: 0}
-    cardBgSprite: {fileID: 0}
+    cardSprite: {fileID: 21300000, guid: 2c221b12d6a0a1444844f17dc02efc9d, type: 3}
+    cardBgSprite: {fileID: 21300000, guid: 2a5d72c37e9fa0d4facfe8e0ce8f4c4b, type: 3}
     mana: 5
     Health: 5
     atack: 5
   - cardName: "\u0418\u043C\u044F 3"
     cardDes: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 3"
-    cardSprite: {fileID: 0}
-    cardBgSprite: {fileID: 0}
+    cardSprite: {fileID: 21300000, guid: 2c221b12d6a0a1444844f17dc02efc9d, type: 3}
+    cardBgSprite: {fileID: 21300000, guid: 2a5d72c37e9fa0d4facfe8e0ce8f4c4b, type: 3}
     mana: 5
     Health: 5
     atack: 5
   - cardName: "\u0418\u043C\u044F 4"
     cardDes: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 4"
-    cardSprite: {fileID: 0}
-    cardBgSprite: {fileID: 0}
+    cardSprite: {fileID: 21300000, guid: 2c221b12d6a0a1444844f17dc02efc9d, type: 3}
+    cardBgSprite: {fileID: 21300000, guid: 2a5d72c37e9fa0d4facfe8e0ce8f4c4b, type: 3}
     mana: 5
     Health: 5
     atack: 5
   - cardName: "\u0418\u043C\u044F 5"
     cardDes: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 5"
-    cardSprite: {fileID: 0}
-    cardBgSprite: {fileID: 0}
+    cardSprite: {fileID: 21300000, guid: 2c221b12d6a0a1444844f17dc02efc9d, type: 3}
+    cardBgSprite: {fileID: 21300000, guid: 2a5d72c37e9fa0d4facfe8e0ce8f4c4b, type: 3}
     mana: 5
     Health: 5
     atack: 5
@@ -1151,13 +1151,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673371596}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1388834, y: -1.0659279, z: 266.9287}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -394.77487, y: -134.06088, z: 22252.188}
+  m_LocalScale: {x: 125.76921, y: 125.76921, z: 125.76921}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1938501542}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1693628243 stripped
 RectTransform:
@@ -1386,13 +1386,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878474162}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1388834, y: -1.0659279, z: 266.9287}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -394.77487, y: -134.06088, z: 22252.188}
+  m_LocalScale: {x: 125.76921, y: 125.76921, z: 125.76921}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1938501542}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1885366571
 PrefabInstance:
@@ -1427,7 +1427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6157086968755195684, guid: 27ac21cc3ba4314448ef4b88698bf3aa, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6157086968755195684, guid: 27ac21cc3ba4314448ef4b88698bf3aa, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1539,6 +1539,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1749660931}
+  - {fileID: 1673371598}
+  - {fileID: 1878474164}
   m_Father: {fileID: 507407169}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

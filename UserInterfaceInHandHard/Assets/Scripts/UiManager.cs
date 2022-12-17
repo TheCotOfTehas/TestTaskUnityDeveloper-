@@ -12,6 +12,7 @@ public class UiManager : MonoBehaviour
     {
         DisplayCards();
     }
+
     private void DisplayCards()
     {
         for (int i = 0; i < CardManeger.cards.Count; i++)
@@ -24,17 +25,17 @@ public class UiManager : MonoBehaviour
                 .transform.GetChild(0)
                 .GetComponent<Text>().text = CardManeger.cards[i].cardDes;
 
-            //CardSlots[i].transform.GetChild(4)
-            //    .transform.GetChild(0)
-            //    .GetComponent<Text>().text = CardManeger.cards[i].atack.ToString();
+            CardSlots[i].transform.GetChild(4)
+                .transform.GetChild(0)
+                .GetComponent<Text>().text = CardManeger.cards[i].atack.ToString();
 
-            //CardSlots[i].transform.GetChild(5)
-            //    .transform.GetChild(0)
-            //    .GetComponent<Text>().text = CardManeger.cards[i].mana.ToString();
+            CardSlots[i].transform.GetChild(5)
+                .transform.GetChild(0)
+                .GetComponent<Text>().text = CardManeger.cards[i].mana.ToString();
 
-            //CardSlots[i].transform.GetChild(6)
-            //    .transform.GetChild(0)
-            //    .GetComponent<Text>().text = CardManeger.cards[i].Health.ToString();
+            CardSlots[i].transform.GetChild(6)
+                .transform.GetChild(0)
+                .GetComponent<Text>().text = CardManeger.cards[i].Health.ToString();
         }
     }
 }
